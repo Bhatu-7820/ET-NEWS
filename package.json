@@ -1,0 +1,14 @@
+{
+  "name": "ai-news-navigator",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace client",
+    "start": "npm start --workspace server",
+    "build": "npm run build --workspace client"
+  }
+}
